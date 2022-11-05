@@ -3,4 +3,4 @@
 /*Count the number of customers*/
 
 select count(*)
-from customers;
+from customers where gender = 'FEMALE';
